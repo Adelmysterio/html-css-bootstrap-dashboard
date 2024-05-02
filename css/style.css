@@ -48,6 +48,7 @@ main {
     height: calc(100vh - 80px);
     width: 100%;
     overflow-y: scroll;
+    font-size: .85rem;
 }
 
 ul {
@@ -57,13 +58,15 @@ ul {
 
 li {
     margin-bottom: 1rem;
+    font-size: .85em;
 }
+
 
 /* Stile Tabella */
 
 table,
-th {
-    font-size: .9rem;
+table th {
+    font-size: .8rem;
     font-weight: normal;
 }
 

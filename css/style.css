@@ -1,3 +1,7 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 /* Utilities */
 
 .my-small-box{
@@ -6,6 +10,21 @@
     align-items: center;
     width: 2rem;
 }
+
+.my-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.bg-dark-blue {
+    background-color: #165bba;
+}
+
 /* Stile Generale */
 
 header {
@@ -27,6 +46,7 @@ aside {
 
 main {
     height: calc(100vh - 80px);
+    width: 100%;
 }
 
 ul {
@@ -37,7 +57,6 @@ ul {
 li {
     margin-bottom: 1rem;
 }
-
 
 /* /* /* /* /* /* /* /* /* /* /* /* 
 /* Media Queries */

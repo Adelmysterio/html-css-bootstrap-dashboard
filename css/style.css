@@ -47,6 +47,7 @@ aside {
 main {
     height: calc(100vh - 80px);
     width: 100%;
+    overflow-y: scroll;
 }
 
 ul {
@@ -56,6 +57,27 @@ ul {
 
 li {
     margin-bottom: 1rem;
+}
+
+/* Stile Tabella */
+
+table,
+th {
+    font-size: .9rem;
+    font-weight: normal;
+}
+
+table button {
+    width: 2rem;
+    aspect-ratio: 1/1;
+}
+
+table img {
+    width: 2rem;
+}
+
+table tbody tr:last-child {
+    border-color: transparent ;
 }
 
 /* /* /* /* /* /* /* /* /* /* /* /* 
